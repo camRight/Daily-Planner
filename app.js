@@ -15,4 +15,10 @@ $(document).ready(function () {
             $(timeVal).attr("disabled", true)
             $(timeVal).css("text-decoration", "line-through")
         }
+        } else if (currentHour === time) {
+            $(timeVal).addClass("bg-secondary text-white")
+            $(timeVal).css({ "font-size": "25px", "font-family": "Verdana" });
+        } else {
+            $(timeVal).addClass("bg-success text-white")
+        }
 })
