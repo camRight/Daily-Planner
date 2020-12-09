@@ -1,0 +1,22 @@
+{
+  "name": "Daily-Planner",
+  "version": "1.0.0",
+  "description": "This app seeked to create a CRUD (Creating, Reading, Updating, and Deleting) application. This app helped me build a base of what functionality I could add to any app I built.",
+  "main": "app.js",
+  "dependencies": {"@fortawesome/fontawesome-free"},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camRight/Daily-Planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camRight/Daily-Planner/issues"
+  },
+  "homepage": "https://github.com/camRight/Daily-Planner#readme"
+}
