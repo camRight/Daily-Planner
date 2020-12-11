@@ -6,10 +6,16 @@ body {
     background-position: center;
 }
 
-div #time {
+#time {
     text-align: center;
+    width: 12rem;
+    background-color: #9846df;
+}
+
+input {
+color: black;
 }
 
 .row {
-    height: 50px;
+    height: 200px;
 }
