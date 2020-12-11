@@ -17,7 +17,7 @@ $(document).ready(function () {
         }
         } else if (currentHour === time) {
             $(timeVal).addClass("bg-secondary text-white")
-            $(timeVal).css({ "font-size": "25px", "font-family": "Verdana" });
+            $(timeVal).css({ "font-size": "25px", "font-family": "Roboto" });
         } else {
             $(timeVal).addClass("bg-success text-white")
         }
