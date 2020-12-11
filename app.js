@@ -14,7 +14,6 @@ $(document).ready(function () {
             $(timeVal).addClass("bg-danger text-white")
             $(timeVal).attr("disabled", true)
             $(timeVal).css("text-decoration", "line-through")
-        }
         } else if (currentHour === time) {
             $(timeVal).addClass("bg-secondary text-white")
             $(timeVal).css({ "font-size": "25px", "font-family": "Roboto" });
@@ -32,5 +31,16 @@ $(document).ready(function () {
             window.localStorage.setItem(time, "")
         } else if (checkTime.length > 0) {
             $(timeVal).attr("value", window.localStorage.getItem(time))
-        }
+        })
+
+    $("form").on("submit", function (e) {
+        e.preventDefault();
+        const time = (e.target.querySelector("input").getAttribute("id"))
+
+        const textInput = (e.target.querySelector("input").value)
+
+        window.localStorage.setItem(time, textInput)
+        location.reload();
+    })
+        
     })
