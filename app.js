@@ -21,4 +21,16 @@ $(document).ready(function () {
         } else {
             $(timeVal).addClass("bg-success text-white")
         }
-})
+
+        var pastTime = document.getElementById("time");
+        if (pastTime <= currentHour) {
+            pastTime.addClass("bg-danger")
+        }
+
+
+        if (checkTime === null) {
+            window.localStorage.setItem(time, "")
+        } else if (checkTime.length > 0) {
+            $(timeVal).attr("value", window.localStorage.getItem(time))
+        }
+    })
