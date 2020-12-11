@@ -31,7 +31,8 @@ $(document).ready(function () {
             window.localStorage.setItem(time, "")
         } else if (checkTime.length > 0) {
             $(timeVal).attr("value", window.localStorage.getItem(time))
-        })
+        }
+    })
 
     $("form").on("submit", function (e) {
         e.preventDefault();
@@ -42,5 +43,5 @@ $(document).ready(function () {
         window.localStorage.setItem(time, textInput)
         location.reload();
     })
-        
+
     })
