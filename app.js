@@ -11,7 +11,7 @@ $(document).ready(function () {
         const timeVal = "#" + time
 
         if (currentTime > time) {
-            $(timeVal).addClass("bg-danger text-white")
+            $(timeVal).addClass("bg-danger text-black")
             $(timeVal).attr("disabled", true)
             $(timeVal).css("text-decoration", "line-through")
         } else if (currentHour === time) {
