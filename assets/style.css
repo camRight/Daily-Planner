@@ -43,3 +43,24 @@ input {
 .bg-danger {
     background: darkred !important;
 }
+
+header.jumbotron.bg-dark.text-white {
+    padding-top: 36px;
+}
+
+h1.display-3 {
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+p.lead {
+    font-weight: 420;
+    margin-bottom: 34px;
+    margin-top: 20px !important;
+    margin-left: 8px;
+
+}
+
+strong#day-today {
+    margin-left: 8px;
+}
