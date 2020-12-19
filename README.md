@@ -1,5 +1,5 @@
 # Daily-Planner
-This app seeks to create a CRUD (Creating, Reading, Updating, and Deleting) application. This app helped me build a base of what functionality I could add to any app I built.
+This app seeks to create a CRUD (Creating, Reading, Updating, and Deleting) application. This app helped me build a base of what functionality I could add to any app I built. Local storage is used to create client-side storage functionality.
 
 ![Image of Application](assets/FunctionalityofDaily-Planner.png)
 
