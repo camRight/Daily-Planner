@@ -11,6 +11,8 @@ JQUERY
 
 Bootstrap
 
+Font Awesome
+
 ## Links
 
 GitHub Pages: https://camright.github.io/Daily-Planner/
