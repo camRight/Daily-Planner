@@ -23,7 +23,10 @@ body {
 }
 
 input {
-color: black;
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
 }
 
 .color {
@@ -35,4 +38,8 @@ color: black;
 
 .bot-el-height {
     margin-bottom: 4px;;
+}
+
+.bg-danger {
+    background: darkred !important;
 }

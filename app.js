@@ -10,8 +10,8 @@ $(document).ready(function () {
         const currentHour = moment().hour()
         const timeVal = "#" + time
 
-        if (currentTime > time) {
-            $(timeVal).addClass("bg-danger text-black")
+        if (currentHour > time) {
+            $(timeVal).addClass("bg-danger text-black !important")
             $(timeVal).attr("disabled", true)
             $(timeVal).css("text-decoration", "line-through")
         } else if (currentHour === time) {
